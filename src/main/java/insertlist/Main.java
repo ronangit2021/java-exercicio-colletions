@@ -28,6 +28,8 @@ public class Main {
 		for(int i=0;i<valores.size();i++) {
 			System.out.println("Item "+i+" é: "+valores.get(i));
 		}
+		
+		
 		valores.add("item adicionado automaticamente 01");
 		valores.add("item adicionado automaticamente 02");
 		valores.remove(1);
